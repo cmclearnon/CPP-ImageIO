@@ -1,5 +1,5 @@
 # CPP-ImageIO
- Image Processing using C++
+ ## Image Processing using C++
 
  Most image files (jpg, tif, gif, png, bmp, ...) are in a binary format, consisting of two parts: **Header** and **Data**.
 
