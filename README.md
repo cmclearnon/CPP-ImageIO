@@ -5,7 +5,7 @@
 
  * **Header**: constrains information about the image in storage, e.g.,
 
- ⋅⋅⋅Storage format, dimensions, colour or grayscale, compressed or not, etc.⋅⋅
+ ⋅⋅⋅Storage format, dimensions, colour or grayscale, compressed or not, etc.
 
  * **Data**: refer to the pixel values of the image.
 
