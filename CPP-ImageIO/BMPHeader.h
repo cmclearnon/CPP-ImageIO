@@ -19,7 +19,7 @@ public:
     // Get information of the image
     int get_height() const { return height; }
     int get_width() const { return width; }
-    short int get_bits_per_pixel() const { return get_bits_per_pixel; }
+    short int get_bits_per_pixel() const { return bits_per_pixel; }
 
 private:
     // BMP Image Header parameters
