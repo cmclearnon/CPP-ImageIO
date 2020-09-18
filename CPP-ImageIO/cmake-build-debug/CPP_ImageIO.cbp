@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/chrismclearnon/Developer/CPP-ImageIO/CPP-ImageIO/BMPHeader.h">
+			<Option target="CPP_ImageIO"/>
+		</Unit>
 		<Unit filename="/Users/chrismclearnon/Developer/CPP-ImageIO/CPP-ImageIO/main.cpp">
 			<Option target="CPP_ImageIO"/>
 		</Unit>
