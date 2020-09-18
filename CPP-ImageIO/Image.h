@@ -1,5 +1,5 @@
 #ifndef IMAGE_H
-#define IMAGE
+// #define IMAGE
 
 #include "BMPHeader.h"
 
