@@ -3,4 +3,4 @@ project(CPP_ImageIO)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CPP_ImageIO main.cpp BMPHeader.h)
+add_executable(CPP_ImageIO BMPHeader.h BMPHeader.cpp Image.h Image.cpp image_io_test.cpp)
