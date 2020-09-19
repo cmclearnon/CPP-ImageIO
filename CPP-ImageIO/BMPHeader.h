@@ -12,13 +12,31 @@ using std::ofstream;
 // BMP Format Image Header
 class BMPHeader {
 public:
-    // Read & wrute the header with given file stream
+    /**
+     * * Read header with given file stream
+     * @param fin The input file stream object
+     */
     bool read(ifstream& fin);
+
+    /**
+     * * Write header with given file stream
+     * @param fin The output file stream object
+     */
     void write(ofstream& fin);
 
-    // Get information of the image
+    /**
+     * * Get height dimension of the image
+     */
     int get_height() const { return height; }
+
+    /**
+     * * Get width dimension of the image
+     */
     int get_width() const { return width; }
+
+    /**
+     * * Get the number of bits per pixel in the image
+     */
     short int get_bits_per_pixel() const { return bits_per_pixel; }
 
 private:

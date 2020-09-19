@@ -6,10 +6,14 @@
 // Class Image I/O & Access
 class Image {
     public:
-    // Constructor
+    /**
+     * * Image object Constructor
+     */
     Image();
 
-    // Destructor
+        /**
+     * * Image object Destructor
+     */
     ~Image();
 
     /**
@@ -25,9 +29,13 @@ class Image {
     void save(char* fname);
 
     /**
-     * * Get dimensions of the image
+     * * Get height dimension of the image via the header
      */
     int get_height() { return header.get_height(); }
+
+    /**
+     * * Get width dimension of the image via the header
+     */
     int get_width() { return header.get_width(); }
 
     /**
